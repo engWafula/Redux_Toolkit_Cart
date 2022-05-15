@@ -1,9 +1,13 @@
 import { CartIcon } from '../icons';
-import { useSelector } from 'react-redux';
+import { useSelector} from 'react-redux';
+
+
 
 export default function Navbar() {
+  
 
     const {amount}=useSelector(state=>state.cart);
+    
     
   return (
     <nav>
